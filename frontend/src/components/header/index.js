@@ -39,15 +39,13 @@ const Header = () => {
       <div className="header__socialmedia">
         <ul>
           <li>
-            <Link href="/">
+            <Link to="/">
               <FaFacebookF />
             </Link>
           </li>
 
           <li>
-            <Link to="/">
-              <FaInstagram />
-            </Link>
+            <FaInstagram />
           </li>
 
           <li>

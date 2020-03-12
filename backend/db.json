@@ -1,0 +1,25 @@
+{
+  "order": [
+    {
+      "id": 1,
+      "name": "Larissa",
+      "sector": "RH Comercial",
+      "level": "Urgente",
+      "description": "Trocar o mouse."
+    },
+    {
+      "id": 2,
+      "name": "Wallace",
+      "sector": "Diretoria",
+      "level": "Urgente",
+      "description": "Computador travando."
+    },
+    {
+      "id": 3,
+      "name": "Gabriel",
+      "sector": "Call Center",
+      "level": "Baixo",
+      "description": "Pacote Office não abre."
+    }
+  ]
+}
