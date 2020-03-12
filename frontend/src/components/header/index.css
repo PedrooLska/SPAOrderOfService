@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  text-align: center;
+
+  background: #181818;
+  color: rgb(88, 88, 88);
+}
+
+.header__logo h2 {
+  font-family: Roboto;
+  margin-top: 30px;
+}
+
+.header li {
+  padding: 5px 0 10px;
+}
+
+.header a {
+  font-family: Roboto, sans-serif;
+  color: rgb(88, 88, 88);
+}
+
+.header a:hover {
+  color: #17fddb;
+}
