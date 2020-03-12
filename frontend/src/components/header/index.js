@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 import {
@@ -13,24 +14,24 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__logo">
-        <a href="#">
+        <Link to="/">
           <FaContao />
           <h2>CS APP</h2>
-        </a>
+        </Link>
       </div>
 
       <div className="header__nav">
         <ul>
           <li>
-            <a href="#">Página Principal</a>
+            <Link to="/">Página Principal</Link>
           </li>
 
           <li>
-            <a href="#">Abrir OS</a>
+            <Link to="/create">Abrir OS</Link>
           </li>
 
           <li>
-            <a href="#">Consultar OS</a>
+            <Link to="/query">Consultar OS</Link>
           </li>
         </ul>
       </div>
@@ -38,27 +39,27 @@ const Header = () => {
       <div className="header__socialmedia">
         <ul>
           <li>
-            <a href="#">
+            <Link href="/">
               <FaFacebookF />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="#">
+            <Link to="/">
               <FaInstagram />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="#">
+            <Link to="/">
               <FaLinkedinIn />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="#">
+            <Link to="/">
               <FaGithub />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
