@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #181818;
+  border: 1px solid black;
+}
+
+IoMdHeart {
+  color: red;
+  background: red;
+}
