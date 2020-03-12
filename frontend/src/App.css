@@ -1,0 +1,22 @@
+.app {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr 50px;
+  grid-template-areas:
+    "header main"
+    "header footer";
+
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
