@@ -1,12 +1,21 @@
 import React from "react";
 import "./index.css";
 
+import {
+  FaContao,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaGithub
+} from "react-icons/fa";
+
 const Header = () => {
   return (
     <header className="header">
       <div className="header__logo">
         <a href="#">
-          <h2>My App</h2>
+          <FaContao />
+          <h2>CS APP</h2>
         </a>
       </div>
 
@@ -29,15 +38,27 @@ const Header = () => {
       <div className="header__socialmedia">
         <ul>
           <li>
-            <a href="#">Facebook</a>
+            <a href="#">
+              <FaFacebookF />
+            </a>
           </li>
 
           <li>
-            <a href="#">Instagram</a>
+            <a href="#">
+              <FaInstagram />
+            </a>
           </li>
 
           <li>
-            <a href="#">Linkedin</a>
+            <a href="#">
+              <FaLinkedinIn />
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <FaGithub />
+            </a>
           </li>
         </ul>
       </div>

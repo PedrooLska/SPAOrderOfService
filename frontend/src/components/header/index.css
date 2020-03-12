@@ -8,11 +8,10 @@
 
   background: #181818;
   color: rgb(88, 88, 88);
-  border: 1px solid black;
+  border: 1px solid rgb(44, 44, 44);
 }
 
-.header__logo h2 {
-  font-family: Roboto;
+.header__logo {
   margin-top: 30px;
 }
 
@@ -27,4 +26,8 @@
 
 .header a:hover {
   color: #17fddb;
+}
+
+.header__socialmedia {
+  margin-bottom: 20px;
 }
