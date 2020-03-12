@@ -15,7 +15,7 @@ const Header = () => {
     <header className="header">
       <div className="header__logo">
         <Link to="/">
-          <FaContao />
+          <FaContao size={42} />
           <h2>CS APP</h2>
         </Link>
       </div>
