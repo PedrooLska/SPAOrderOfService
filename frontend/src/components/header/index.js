@@ -45,7 +45,9 @@ const Header = () => {
           </li>
 
           <li>
-            <FaInstagram />
+            <Link to="/">
+              <FaInstagram />
+            </Link>
           </li>
 
           <li>
