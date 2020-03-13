@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 import api from "../../../src/services/api";
@@ -10,14 +10,23 @@ const Create = () => {
   const [name, setName] = useState();
   const [sector, setSector] = useState();
   const [level, setLevel] = useState();
+  const [description, setDescription] = useState();
 
   const createOs = async () => {
     await api.post("/order", {
       name,
       sector,
-      level
+      level,
+      description
     });
-    toast.success("Ordem de Serviço Criada com Sucesso!!!");
+    toast.success("🦄 Ordem de Serviço Criada com Sucesso!!!", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true
+    });
   };
 
   return (
@@ -62,7 +71,11 @@ const Create = () => {
           <option value="Pouco Urgente">Pouco Urgente</option>
           <option value="Não Urgente">Não Urgente</option>
         </select>
-        <textarea placeholder="Descrição sobre a OS"></textarea>
+        <textarea
+          placeholder="Descrição sobre a OS"
+          value={description}
+          onChange={e => setDescription(e.target.value)}
+        ></textarea>
 
         <button type="button" onClick={createOs}>
           Criar OS

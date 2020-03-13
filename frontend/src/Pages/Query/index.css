@@ -1,0 +1,33 @@
+.query {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.query h1 {
+  margin-bottom: 30px;
+  color: #17fdd8;
+}
+
+.query table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.query th {
+  color: white;
+}
+
+.query th,
+.query td {
+  border: 1px solid #818181;
+  text-align: left;
+  padding: 8px;
+}
+
+.query tr:nth-child(even) {
+  background-color: #424141;
+}

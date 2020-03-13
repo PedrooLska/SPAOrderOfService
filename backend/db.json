@@ -22,17 +22,23 @@
       "description": "Pacote Office não abre."
     },
     {
+      "name": "Larissa Abudabi",
+      "sector": "Atesp",
+      "level": "Pouco Urgente",
+      "id": 4
+    },
+    {
+      "name": "Wallace Soares",
       "sector": "Atendimento Especial",
-      "id": 7
+      "level": "Não Urgente",
+      "id": 5
     },
     {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
-      "id": 10
+      "name": "Larissa Emanuelle",
+      "sector": "Atendimento Especial",
+      "level": "Pouco Urgente",
+      "description": "Trocar o teclado",
+      "id": 6
     }
   ],
   "user": [
