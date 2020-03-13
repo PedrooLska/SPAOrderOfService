@@ -10,26 +10,15 @@ const Create = () => {
   const [name, setName] = useState();
   const [sector, setSector] = useState();
   const [level, setLevel] = useState();
-  const [data, setData] = useState([]);
 
   const createOs = async () => {
-    const response = await api.post("/order", {
+    await api.post("/order", {
       name,
       sector,
       level
     });
     toast.success("Ordem de Serviço Criada com Sucesso!!!");
   };
-
-  const sectorList = async () => {
-    const response = await api.get("user");
-
-    setData(response.data);
-  };
-
-  useEffect(() => {
-    sectorList();
-  }, []);
 
   return (
     <div className="create">
