@@ -20,6 +20,57 @@
       "sector": "Call Center",
       "level": "Baixo",
       "description": "Pacote Office não abre."
+    },
+    {
+      "name": "asdasd",
+      "sector": "Atendimento Especial",
+      "level": "Pouco Urgente",
+      "id": 4
+    },
+    {
+      "name": "Larissa Emanuelle",
+      "sector": "Arquivos",
+      "level": "Pouco Urgente",
+      "id": 5
+    },
+    {
+      "name": "Larissa Emanuelle",
+      "sector": "Atesp",
+      "level": "Pouco Urgente",
+      "id": 6
+    },
+    {
+      "name": "Larissa",
+      "sector": "Atendimento Especial",
+      "level": "Pouco Urgente",
+      "id": 7
+    },
+    {
+      "sector": "Atendimento Especial",
+      "level": "Pouco Urgente",
+      "id": 8
+    },
+    {
+      "sector": "Arquivos",
+      "level": "Não Urgente",
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Larissa"
+    },
+    {
+      "id": 2,
+      "name": "Gabriella"
+    },
+    {
+      "id": 3,
+      "name": "Gabriel"
     }
   ]
 }
