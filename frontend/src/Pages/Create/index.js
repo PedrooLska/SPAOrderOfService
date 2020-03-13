@@ -3,6 +3,9 @@ import "./style.css";
 
 import api from "../../../src/services/api";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Create = () => {
   const [name, setName] = useState();
   const [sector, setSector] = useState();
@@ -15,7 +18,7 @@ const Create = () => {
       sector,
       level
     });
-    console.log(response);
+    toast.success("Ordem de Serviço Criada com Sucesso!!!");
   };
 
   const sectorList = async () => {
@@ -30,6 +33,7 @@ const Create = () => {
 
   return (
     <div className="create">
+      <ToastContainer />
       <h1>Criar Ordem de Serviço</h1>
       <form className="create__form">
         <input
@@ -38,6 +42,9 @@ const Create = () => {
           onChange={e => setName(e.target.value)}
         />
         <select value={sector} onChange={e => setSector(e.target.value)}>
+          <option value="Selecione o seu setor." hidden>
+            Selecione o seu setor
+          </option>
           <option value="Administrativo">Administrativo</option>
           <option value="Almoxarifado">Almoxarifado</option>
           <option value="Arquivos">Arquivos</option>
@@ -68,7 +75,9 @@ const Create = () => {
         </select>
         <textarea placeholder="Descrição sobre a OS"></textarea>
 
-        <button onClick={createOs}>Criar OS</button>
+        <button type="button" onClick={createOs}>
+          Criar OS
+        </button>
       </form>
     </div>
   );

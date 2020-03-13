@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 
+import { ToastContainer } from "react-toastify";
+
 import Header from "../src/components/header/index";
 import Routes from "../src/routes";
 import Footer from "../src/components/footer/index";
