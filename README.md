@@ -45,7 +45,7 @@ Agora vamos entrar na pasta do BackEnd da aplicação:
 
 Agora vamos instalar as dependência necessárias para rodar o Backend:
 
-`yarn add ou npm i`
+`npm i`
 
 Agora vamos iniciar o BackEnd da aplicação:
 
@@ -57,7 +57,7 @@ Agora vamos entrar na pasta do FrontEnd da aplicação:
 
 Agora vamos instalar as dependência necessárias para rodar o FrontEnd:
 
-`yarn add ou npm i`
+`npm i`
 
 Agora vamos iniciar o FrontEnd da aplicação:
 
