@@ -13,20 +13,31 @@ const Create = () => {
   const [description, setDescription] = useState();
 
   const createOs = async () => {
-    await api.post("/order", {
-      name,
-      sector,
-      level,
-      description
-    });
-    toast.success("🦄 Ordem de Serviço Criada com Sucesso!!!", {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: false,
-      draggable: true
-    });
+    if (!name || !sector || !level || !description) {
+      toast.warn("Preencha todos os campos", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: false
+      });
+    } else {
+      await api.post("/order", {
+        name,
+        sector,
+        level,
+        description
+      });
+      toast.success("🦄 Ordem de Serviço Criada com Sucesso!!!", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true
+      });
+    }
   };
 
   return (

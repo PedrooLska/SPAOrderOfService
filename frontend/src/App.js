@@ -1,11 +1,9 @@
 import React from "react";
 import "./App.css";
 
-import { ToastContainer } from "react-toastify";
-
-import Header from "../src/components/header/index";
+import Header from "../src/layout/header/index";
 import Routes from "../src/routes";
-import Footer from "../src/components/footer/index";
+import Footer from "../src/layout/footer/index";
 
 function App() {
   return (
