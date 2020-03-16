@@ -25,12 +25,14 @@
       "name": "Larissa Abudabi",
       "sector": "Atesp",
       "level": "Pouco Urgente",
+      "description": "Pc Desligando",
       "id": 4
     },
     {
       "name": "Wallace Soares",
       "sector": "Atendimento Especial",
       "level": "Não Urgente",
+      "description": "E-mail parou de funcionar.",
       "id": 5
     },
     {
@@ -55,25 +57,11 @@
       "id": 8
     },
     {
-      "name": "d",
+      "name": "Eliene",
       "sector": "Administrativo",
       "level": "Pouco Urgente",
-      "description": "",
+      "description": "Telefone parou de funcionar.",
       "id": 9
-    }
-  ],
-  "user": [
-    {
-      "id": 1,
-      "name": "Larissa"
-    },
-    {
-      "id": 2,
-      "name": "Gabriella"
-    },
-    {
-      "id": 3,
-      "name": "Gabriel"
     }
   ]
 }
