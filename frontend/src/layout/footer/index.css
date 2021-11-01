@@ -2,6 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  height: 100px;
   background: #181818;
+}
+
+.footer__title {
+  color: white;
+  margin-right: 5px;
 }
