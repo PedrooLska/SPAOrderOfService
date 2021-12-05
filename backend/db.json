@@ -63,5 +63,80 @@
       "description": "Telefone parou de funcionar.",
       "id": 9
     }
-  ]
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Administrativo"
+    },
+    {
+      "id": "2",
+      "name": "Almoxarifado"
+    },
+    {
+      "id": "3",
+      "name": "Atendimento Especial"
+    },
+    {
+      "id": "4",
+      "name": "Atesp"
+    },
+    {
+      "id": "5",
+      "name": "Cadastro"
+    },
+    {
+      "id": "6",
+      "name": "Call Center"
+    },
+    {
+      "id": "7",
+      "name": "Compras"
+    },
+    {
+      "id": "8",
+      "name": "Diretoria"
+    },
+    {
+      "id": "9",
+      "name": "Faturamento"
+    },
+    {
+      "id": "10",
+      "name": "Financeiro"
+    },
+    {
+      "id": "11",
+      "name": "Informática"
+    },
+    {
+      "id": "12",
+      "name": "Instalação CFTV"
+    },
+    {
+      "id": "13",
+      "name": "Manuntenção CFTV"
+    },
+    {
+      "id": "14",
+      "name": "Marketing"
+    },
+    {
+      "id": "15",
+      "name": "Monitoramento"
+    },
+    {
+      "id": "16",
+      "name": "RH Comercial"
+    },
+    {
+      "id": "17",
+      "name": "RH Interno"
+    },
+    {
+      "id": "18",
+      "name": "Telefonia"
+    }
+  ],
+  "priority": ["Urgente", "Pouco Urgente", "Não Urgente"]
 }
