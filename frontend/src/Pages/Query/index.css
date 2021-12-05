@@ -7,7 +7,6 @@
 
 .query h1 {
   margin-bottom: 30px;
-  color: #17fdd8;
 }
 
 .query table {
@@ -17,17 +16,8 @@
   margin: 0 auto;
 }
 
-.query th {
-  color: white;
-}
-
 .query th,
 .query td {
-  border: 1px solid #818181;
   text-align: left;
   padding: 8px;
-}
-
-.query tr:nth-child(even) {
-  background-color: #424141;
 }

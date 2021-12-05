@@ -3,25 +3,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.main__text {
-  width: 50%;
+  background-color: var(--blue-dark);
 }
 
 .main__text h1 {
   text-align: center;
-  color: #17fdd8;
   margin-bottom: 30px;
 }
 
 .main__text h3 {
   margin-bottom: 30px;
-}
-
-.main h3,
-.main p {
-  color: white;
 }
 
 .main h3 {

@@ -1,13 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+:root {
+  --green-primary: #50cdb5;
+  --blue-dark: #0a192f;
+  --blue-lighter: #ccd6f6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
 .app {
   display: grid;
-  grid-template-columns: 150px 1fr;
-  grid-template-rows: 1fr 50px;
+  grid-template-columns: 150px auto;
+  grid-template-rows: auto 50px;
   grid-template-areas:
     "header main"
     "header footer";
-
   height: 100vh;
 }
 

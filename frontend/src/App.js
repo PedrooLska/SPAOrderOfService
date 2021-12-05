@@ -8,9 +8,9 @@ import Footer from "../src/layout/footer/index";
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Routes />
-      <Footer />
+      <Header className="header" />
+      <Routes className="main" />
+      <Footer className="footer" />
     </div>
   );
 }

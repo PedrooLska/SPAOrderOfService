@@ -6,7 +6,6 @@
 }
 .create h1 {
   margin-bottom: 30px;
-  color: #17fdd8;
   font-size: 50px;
 }
 
@@ -30,17 +29,12 @@
 .create__form select,
 .create__form textarea {
   margin-bottom: 30px;
-  background: #2b2b2b;
-  color: #505050;
   border: none;
 }
 
 .create__form button {
   width: 200px;
-  margin: 0 auto;
-  border-radius: 10px;
-  border: 1px solid #17fdd8;
+  border-radius: 0.3em;
   background: transparent;
-  color: #17fdd8;
   cursor: pointer;
 }

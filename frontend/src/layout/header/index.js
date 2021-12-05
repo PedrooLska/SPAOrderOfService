@@ -7,7 +7,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaGithub
+  FaGithub,
 } from "react-icons/fa";
 
 const Header = () => {
@@ -15,53 +15,31 @@ const Header = () => {
     <header className="header">
       <div className="header__logo">
         <Link to="/">
-          <FaContao size={42} />
-          <h2>CS APP</h2>
+          <FaContao size={30} />
+          <h3>CS APP</h3>
         </Link>
       </div>
 
       <div className="header__nav">
-        <ul>
-          <li>
-            <Link to="/">Página Principal</Link>
-          </li>
+        <Link to="/">Página Principal</Link>
+        <Link to="/create">Abrir OS</Link>
 
-          <li>
-            <Link to="/create">Abrir OS</Link>
-          </li>
-
-          <li>
-            <Link to="/query">Consultar OS</Link>
-          </li>
-        </ul>
+        <Link to="/query">Consultar OS</Link>
       </div>
 
       <div className="header__socialmedia">
-        <ul>
-          <li>
-            <Link to="/">
-              <FaFacebookF />
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/">
-              <FaInstagram />
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/">
-              <FaLinkedinIn />
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/">
-              <FaGithub />
-            </Link>
-          </li>
-        </ul>
+        <Link to="/">
+          <FaFacebookF size={20} />
+        </Link>
+        <Link to="/">
+          <FaInstagram size={20} />
+        </Link>
+        <Link to="/">
+          <FaLinkedinIn size={20} />
+        </Link>
+        <Link to="/">
+          <FaGithub size={20} />
+        </Link>
       </div>
     </header>
   );

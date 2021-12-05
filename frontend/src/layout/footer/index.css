@@ -2,11 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  background: #181818;
+  background-color: var(--blue-dark);
+  border-top: solid var(--blue-lighter) 1px;
+  color: var(--blue-lighter);
 }
 
 .footer__title {
-  color: white;
+  cursor: pointer;
   margin-right: 5px;
+  transition: all 0.3s ease;
+}
+
+.footer__title:hover {
+  color: var(--green-primary);
 }
