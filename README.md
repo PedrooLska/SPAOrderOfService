@@ -1,13 +1,5 @@
 <h2>:computer: Projeto</h2>
-Na minha antiga empresa na qual eu trabalhei como Auxiliar de TI
-          tínhamos um sistema interno chamado CS no que possibilitávamos criar
-          Ordem de Serviço e visualizar-lás por esse sistema, só que para
-          efetuar a instalação do sistema em cada computador demorava em torno
-          de 10 a 15 minutos ou até mais do que isto, então tive a ideia de
-          desenvolver o mesmo sistema só que em versão Web para otimizar o tempo
-          de instalação do mesmo e até mesmo do processo de formatação das
-          máquinas. Estarei procurando aperfeiçoar ele tanto visualmente e em
-          questão de novas funcionalidades.
+Projeto de Service Desk utilizado na abertura e visualização dos chamados
 
 <h2>:rocket: Tecnologias</h2>
 
